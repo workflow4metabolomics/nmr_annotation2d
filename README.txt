@@ -1,17 +1,17 @@
-Bidimensional NMR annotation for Galaxy
-=======================================
+2D-NMR annotation for Galaxy
+============================
 
-[![bioconda-badge](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io) [![Build Status](https://travis-ci.org/workflow4metabolomics/2DNmrAnnotation.svg?branch=master)](https://travis-ci.org/workflow4metabolomics/2DNmrAnnotation)
+[![bioconda-badge](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io) [![Build Status](https://travis-ci.org/workflow4metabolomics/nmr_annotation2d.svg?branch=master)](https://travis-ci.org/workflow4metabolomics/nmr_annotation2d)
 
 Our project
 -----------
 The [Workflow4Metabolomics](http://workflow4metabolomics.org), W4M in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.
 
 
-BARSA
------
+2D-NMR annotation
+-----------------
 
-Algorithm for Bidimensional NMR Spectra Annotation
+Annotation of 2D NMR spectra
 
 Galaxy
 ------
@@ -30,20 +30,19 @@ The main recipe: [https://github.com/bioconda/bioconda-recipes/tree/master/recip
 #To install miniconda2
 #http://conda.pydata.org/miniconda.html
 #To install the needed R library using conda:
-conda install r-batch r-dplyr r-ggplot2 r-openxlsx r-stringr r-tidyr
-
+conda install r-batch r-ptw
 #To set an environment:
-conda create -n 2DNmrAnnotation r-dplyr r-ggplot2 r-openxlsx r-stringr r-tidyr
+conda create -n nmr_annotation2d r-batch openxlsx dplyr tidyr ggplot2 colormap stringr`
 
 #To activate the environment:
-. activate 2DNmrAnnotation
+. activate nmr_annotation2d
 ```
 
 [Conda](http://conda.pydata.org/) is package manager that among many other things can be used to manage Python packages.
 
 Travis
 ------
-[![Build Status](https://travis-ci.org/workflow4metabolomics/2DNmrAnnotation.svg?branch=master)](https://travis-ci.org/workflow4metabolomics/2DNmrAnnotation)
+[![Build Status](https://travis-ci.org/workflow4metabolomics/nmr_annotation2d.svg?branch=master)](https://travis-ci.org/workflow4metabolomics/nmr_annotation2d)
 
 Test and Deploy with Confidence. Easily sync your GitHub projects with Travis CI and you'll be testing your code in minutes!
 
