@@ -21,7 +21,7 @@
 
 
 		## XLS file
-		xlsfile $zip_xlsfile
+		xlsfile '$zip_xlsfile'
 
 		## 2D-NMR sequences to annotate
 		cosy_2dsequences $cosy_2dsequences
@@ -68,19 +68,19 @@
 		unicity $unicity
 
 		## Outputs
-		logOut $logOut
-        annotationCOSY $annotationCOSY
-        ppmCommunCOSY $ppmCommunCOSY
-        annotationJRES $annotationJRES
-        ppmCommunJRES $ppmCommunJRES
-        annotationHMBC $annotationHMBC
-        ppmCommunHMBC $ppmCommunHMBC
-        annotationHSQC $annotationHSQC
-        ppmCommunHSQC $ppmCommunHSQC
-        annotationTOCSY $annotationTOCSY
-        ppmCommunTOCSY $ppmCommunTOCSY
-        annotationCombination $annotationCombination
-        AnnotationGraph $AnnotationGraph
+		logOut '$logOut'
+        annotationCOSY '$annotationCOSY'
+        ppmCommunCOSY '$ppmCommunCOSY'
+        annotationJRES '$annotationJRES'
+        ppmCommunJRES '$ppmCommunJRES'
+        annotationHMBC '$annotationHMBC'
+        ppmCommunHMBC '$ppmCommunHMBC'
+        annotationHSQC '$annotationHSQC'
+        ppmCommunHSQC '$ppmCommunHSQC'
+        annotationTOCSY '$annotationTOCSY'
+        ppmCommunTOCSY '$ppmCommunTOCSY'
+        annotationCombination '$annotationCombination'
+        AnnotationGraph '$AnnotationGraph'
 		
 	</command>
 		
