@@ -242,7 +242,6 @@
     		<output name="annotationHSQC" file="annotationHsqc.tabular"/>
     		<output name="ppmCommunHSQC" file="duplicateHsqc.tabular"/>
     		<output name="annotationCombination" file="2DNMR_Annotation_annotationCombination.tabular"/>
-    		<output name="AnnotationGraph" file="2DNMR_Annotation_graph.pdf"/>
     	</test>
 	</tests>
 <help>
