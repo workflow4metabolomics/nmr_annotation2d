@@ -236,7 +236,6 @@
     		<param name="tolppmJRES" value="0.002"/>
     		<param name="threshold" value="0.3"/>
     		<param name="unicity" value="no"/>
-    		<output name="logOut" file="2DNMR_Annotation_log.txt"/>
     		<output name="annotationJRES" file="annotationJres.tabular"/>
     		<output name="ppmCommunJRES" file="duplicateJres.tabular"/>
     		<output name="annotationHSQC" file="annotationHsqc.tabular"/>
