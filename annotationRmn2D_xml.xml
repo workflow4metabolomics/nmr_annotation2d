@@ -223,7 +223,7 @@
     </outputs>
     <tests>
     	<test>
-    		<param name="zip_xlsfile" value="Template_melange.xlsm"/>
+    		<param name="zip_xlsfile" value="Template_melange.xlsm" ftype="xlsx"/>
     		<param name="cosy_2dsequences" value="no"/>
     		<param name="jres_2dsequences" value="yes"/>
     		<param name="hmbc_2dsequences" value="no"/>
